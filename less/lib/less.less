@@ -1,0 +1,28 @@
+/* LESS Document */
+.transform(@value){
+	-webkit-transform:@value;
+	transform:@value;
+	}
+
+.creatAn(@name:noone,@duration:10s,@timing:linear,@delay:0s,@iteration:infinite,@direction:normal){
+
+	@{name}{
+	-webkit-transition: none!important;
+	-moz-transition: none!important;
+	-o-transition: none!important;
+	-ms-transition: none!important;
+	transition: none!important;
+	-webkit-animation-name:@name;
+	animation-name:@name;
+   	-webkit-animation-duration: @duration;
+	animation-duration: @duration;
+    -webkit-animation-timing-function: @timing;
+	animation-timing-function: @timing;
+    -webkit-animation-delay: @delay;
+	animation-delay: @delay;
+    -webkit-animation-iteration-count: @iteration;
+	animation-iteration-count: @iteration;
+    -webkit-animation-direction: @direction;
+	animation-direction: @direction;
+	}
+	}
