@@ -11,7 +11,7 @@
 @-webkit-keyframes #{$name} {
     @content;
   }
-	#{$name}{
+	.#{$name}{
 	-webkit-transition: none!important;
 	-moz-transition: none!important;
 	-o-transition: none!important;
@@ -31,4 +31,4 @@
 	animation-direction: $direction;
 	}
 	}
-
+$size : 0.5;

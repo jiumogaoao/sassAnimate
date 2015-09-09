@@ -1,6 +1,7 @@
 /* Scss Document */
 @import "lib/sass.scss";
-@include creatAn(yy) {
+@mixin main($h : 1){
+	@include creatAn(yy) {
 	0% {
         margin-left: 100px;
         background: green;
@@ -19,3 +20,13 @@
         background: red;
      }
 	}
+	.gg{
+		width:1px * $h ;
+		}
+	}
+@media all and (orientation : landscape) {
+		@include main($size);
+		}
+@media all and (orientation : portrait){
+		@include main(1);
+		}

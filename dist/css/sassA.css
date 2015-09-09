@@ -1,0 +1,108 @@
+/* Scss Document */
+/* Scss Document */
+@media all and (orientation: landscape) {
+  @keyframes yy {
+    0% {
+      margin-left: 100px;
+      background: green;
+      -webkit-transform: translateY(0);
+      transform: translateY(0); }
+    40% {
+      margin-left: 150px;
+      background: orange; }
+    60% {
+      margin-left: 75px;
+      background: blue; }
+    100% {
+      margin-left: 100px;
+      background: red; } }
+  @-webkit-keyframes yy {
+    0% {
+      margin-left: 100px;
+      background: green;
+      -webkit-transform: translateY(0);
+      transform: translateY(0); }
+    40% {
+      margin-left: 150px;
+      background: orange; }
+    60% {
+      margin-left: 75px;
+      background: blue; }
+    100% {
+      margin-left: 100px;
+      background: red; } }
+  .yy {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+    -webkit-animation-name: yy;
+    animation-name: yy;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    animation-direction: normal; }
+
+  .gg {
+    width: 0.5px; } }
+@media all and (orientation: portrait) {
+  @keyframes yy {
+    0% {
+      margin-left: 100px;
+      background: green;
+      -webkit-transform: translateY(0);
+      transform: translateY(0); }
+    40% {
+      margin-left: 150px;
+      background: orange; }
+    60% {
+      margin-left: 75px;
+      background: blue; }
+    100% {
+      margin-left: 100px;
+      background: red; } }
+  @-webkit-keyframes yy {
+    0% {
+      margin-left: 100px;
+      background: green;
+      -webkit-transform: translateY(0);
+      transform: translateY(0); }
+    40% {
+      margin-left: 150px;
+      background: orange; }
+    60% {
+      margin-left: 75px;
+      background: blue; }
+    100% {
+      margin-left: 100px;
+      background: red; } }
+  .yy {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+    -webkit-animation-name: yy;
+    animation-name: yy;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    animation-direction: normal; }
+
+  .gg {
+    width: 1px; } }
+
+/*# sourceMappingURL=sassA.css.map */
